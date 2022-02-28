@@ -14,7 +14,7 @@ if bit == '32bit':
 
     import Phuck
 
-    Phuck. __techq()
+    Phuck.__techq()
 
 
 
