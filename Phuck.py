@@ -18,7 +18,7 @@ import requests
 
 bit = platform.architecture()[0]
 
-elif bit == '32bit':
+if bit == '32bit':
 
     import Phuck
 
