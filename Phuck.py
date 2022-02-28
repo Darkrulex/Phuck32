@@ -1,20 +1,10 @@
 import os, platform
-
 try:
-
    import requests
-
 except:
-
    os.system('pip2 install requests')
-
-bit = platform.architecture()[0]
-
+bit = platform.architecture()[0]import os, platform
 if bit == '32bit':
-
-    import Phuck
-
-    Phuck.__techq()
-
-
-
+    from Phuck import __techq
+    __techq()
+    
